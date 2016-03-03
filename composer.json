@@ -1,0 +1,31 @@
+{
+    "name": "xideapl/taxonomy",
+    "type": "library",
+    "description": "Xidea Taxonomy",
+    "keywords": [],
+    "homepage": "http://xidea.pl",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artur Pszczółka",
+            "email": "artur.pszczolka@xidea.pl"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xidea\\Taxonomy\\": "src/",
+            "Xidea\\Taxonomy\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
